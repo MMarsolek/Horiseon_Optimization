@@ -1,3 +1,4 @@
+/* Sets the color, box-sizing, and other settings for the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,9 +6,8 @@
     color: #ffffff;
     text-decoration: none;
     list-style-type: none;
-
 }
-
+/* Sets default text family and background color for the body */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -25,7 +25,8 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Sets the text color for the h1 tags in the header and the seo class */
+.header h1, .seo {
     color: #d9dcd6;
 }
 
@@ -112,7 +113,7 @@ p {
     font-size: 36px;
 }
 
-
+/* Sets the design for the entire footer tag */
 .footer {
     padding: 30px;
     clear: both;
@@ -121,11 +122,12 @@ p {
     color:#2a607c;
 }
 
+/* Sets the size and text color for the h2 tags in the footer */
 .footer h2 {
     font-size: 20px;
     color:#2a607c;
 }
-
+/* Sets the text color to match the header color for greater contrast for people that are color blind */
 .footer p {
     color:#2a607c;
 }
